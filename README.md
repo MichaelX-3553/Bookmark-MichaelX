@@ -38,7 +38,7 @@ Users can:
 
 ### Useful resources
 
-- [Example resource 1](https://www.fonts.google.com) - This helped me get free online fonts.. it is very popular already, but i'd still like to outline that fact
+- [Google Fonts](https://www.fonts.google.com) - This helped me get free online fonts.. it is very popular already, but i'd still like to outline that fact
 
 ## Author
 
