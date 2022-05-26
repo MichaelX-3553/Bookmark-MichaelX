@@ -1,0 +1,151 @@
+@media (max-width: 850px) {
+	/*--------------------------- the navbar --------------------------*/
+	.navbar .nav-menu-btn {
+		display: block;
+	}
+
+	.navbar .nav-list:not(.footer-nav-list.nav-list) {
+		display: none;
+	}
+
+	/*--------------------------- the header --------------------------*/
+	.header {
+		flex-direction: column-reverse;
+		gap: 10vw;
+	}
+
+	.header article {
+		min-width: 200px;
+		text-align: center;
+	}
+
+	.header article p {
+		max-width: unset;
+	}
+
+	.header article a {
+		margin-bottom: 10px;
+	}
+
+	.header img {
+		min-width: unset;
+		max-width: 100%;
+	}
+
+	.header::after {
+		width: 70%;
+		height: calc(30px + 35vw);
+		border-radius: 200px 0 0 200px;
+		top: calc(2% + 35vw);
+		right: 0;
+	}
+
+	/*--------------------------- the features --------------------------*/
+	.features {
+		margin-bottom: -50px;
+	}
+
+	.features p {
+		max-width: unset;
+		width: 100%;
+		margin: 20px 0 0 0;
+	}
+	.features .features-tabs {
+		width: 100%;
+		padding: 20px 0 20px 0;
+		border-bottom: unset;
+	}
+
+	.features-tabs ul {
+		flex-direction: column;
+	}
+
+	.features-tabs ul .tab {
+		width: 100%;
+		border-bottom: 2px solid var(--clr-grayish-blue);
+		padding-block: 30px;
+	}
+
+	.features-tabs ul .tab.active-tab::after {
+		width: 100%;
+		bottom: 0;
+		left: 0;
+	}
+
+	.main-tab {
+		margin-top: 50px;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.main-tab img {
+		min-width: unset;
+		max-width: unset;
+		width: 100%;
+	}
+
+	.main-tab article p {
+		max-width: unset;
+		width: 100%;
+		text-align: center;
+	}
+
+	.main-tab article a {
+		display: none;
+	}
+
+	.features::after {
+		width: 70%;
+		height: calc(30px + 35vw);
+		border-radius: 0 200px 200px 0;
+		top: calc(20px + 58%);
+	}
+
+	/*--------------------------- the downloads --------------------------*/
+	.downloads .browser-cards {
+		gap: 50px;
+	}
+
+	.browser-cards .card {
+		max-width: 270px;
+		padding-inline: 20px;
+	}
+
+	/*--------------------------- the faqs --------------------------*/
+	.faqs .questions-box {
+		min-width: unset;
+		max-width: unset;
+		width: 100%;
+	}
+
+	.question .title {
+		padding-right: 0;
+	}
+
+	/*--------------------------- the footer --------------------------*/
+	.footer .contact form {
+		min-width: unset;
+		max-width: unset;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.contact form .submit-btn {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.footer .footer-nav {
+		padding-block: 70px;
+		flex-direction: column;
+		justify-content: center;
+		gap: 50px;
+	}
+
+	.footer-nav .nav-list {
+		flex-direction: column;
+	}
+}

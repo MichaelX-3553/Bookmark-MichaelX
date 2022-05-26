@@ -1,0 +1,75 @@
+.downloads {
+	width: 100%;
+	padding: 70px 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+@media (min-width: 1088px) {
+	.downloads {
+		margin-bottom: 70px;
+	}
+}
+
+.downloads h2 {
+	font-size: var(--fs-big);
+	font-weight: 600;
+	color: var(--clr-dark-blue);
+	text-align: center;
+}
+
+.downloads p {
+	max-width: 450px;
+	font-size: var(--fs-tiny);
+	margin: 20px 0 30px 0;
+	font-weight: 400;
+	color: var(--clr-grayish-blue);
+	text-align: center;
+}
+
+.downloads .browser-cards {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 30px;
+}
+
+.browser-cards .card {
+	width: 270px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 30px 0 20px 0;
+	box-shadow: 3px 3px 10px hsl(229, 8%, 90%), -3px 0 10px hsl(229, 8%, 90%);
+	position: relative;
+}
+
+.card h3 {
+	font-size: 17px;
+	font-weight: 600;
+	columns: var(--clr-dark-blue);
+}
+
+.card .bg-dots {
+	width: 100%;
+	margin-top: -20px;
+}
+
+/* control when to slant the cards depending on screen size */
+@media (min-width: 1088px) {
+	.card-2 {
+		top: 35px;
+	}
+
+	.card-3 {
+		top: 70px;
+	}
+}
