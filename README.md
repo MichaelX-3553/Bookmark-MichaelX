@@ -27,10 +27,8 @@ Users can:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://bookmark-michaelx.netlify.app)
-
-## My process
+- Solution URL: [Solution](https://github.com/MichaelX-3553/Bookmark-MichaelX)
+- Live Site URL: [Live Site](https://bookmark-michaelx.netlify.app)
 
 ### Built with
 
